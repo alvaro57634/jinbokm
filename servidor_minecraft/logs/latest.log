@@ -1,68 +1,166 @@
-[26Jun2025 02:09:46.796] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[26Jun2025 02:09:46.802] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[26Jun2025 02:09:46.974] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[26Jun2025 02:09:47.021] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/jinbokm/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[26Jun2025 02:09:47.279] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[26Jun2025 02:09:47.281] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Jun2025 02:09:47.282] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Jun2025 02:09:47.284] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[26Jun2025 02:09:47.370] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[26Jun2025 02:09:49.201] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[26Jun2025 02:09:49.218] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[26Jun2025 02:09:49.259] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
-[26Jun2025 02:09:54.478] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[26Jun2025 02:09:54.480] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[26Jun2025 02:09:54.874] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[26Jun2025 02:09:54.879] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[26Jun2025 02:09:54.950] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[26Jun2025 02:09:54.988] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[26Jun2025 02:09:54.999] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[26Jun2025 02:09:55.004] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[26Jun2025 02:09:55.005] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at bl4ckscor3.mod.globalxp.compat.WailaDataProvider
-[26Jun2025 02:09:55.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[26Jun2025 02:09:55.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[26Jun2025 02:09:55.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[26Jun2025 02:09:55.788] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[26Jun2025 02:09:55.790] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[26Jun2025 02:09:56.420] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[26Jun2025 02:09:57.390] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/jinbokm/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/assets/.mcassetsroot' uses unexpected schema
-[26Jun2025 02:09:57.391] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/jinbokm/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23117!/data/.mcassetsroot' uses unexpected schema
-[26Jun2025 02:09:59.124] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
-[26Jun2025 02:09:59.213] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[26Jun2025 02:09:59.365] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1296 advancements
-[26Jun2025 02:09:59.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[26Jun2025 02:09:59.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[26Jun2025 02:09:59.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[26Jun2025 02:09:59.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[26Jun2025 02:09:59.955] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[26Jun2025 02:09:59.980] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[26Jun2025 02:10:00.071] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[26Jun2025 02:10:00.071] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[26Jun2025 02:10:00.072] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[26Jun2025 02:10:00.072] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[26Jun2025 02:10:00.120] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[26Jun2025 02:10:03.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[26Jun2025 02:10:06.929] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.931] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.931] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.932] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.932] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.933] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:06.934] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[26Jun2025 02:10:07.362] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[26Jun2025 02:10:07.866] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[26Jun2025 02:10:08.053] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4691 ms
-[26Jun2025 02:10:08.053] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.964s)! For help, type "help"
-[26Jun2025 02:10:08.075] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[26Jun2025 02:10:13.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[26Jun2025 02:10:13.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[26Jun2025 02:10:13.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[26Jun2025 02:10:13.078] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[26Jun2025 02:10:14.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[26Jun2025 02:10:15.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[26Jun2025 02:10:15.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[26Jun2025 02:10:15.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[26Jun2025 02:10:15.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[26Jun2025 02:10:15.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[26Jun2025 02:10:15.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[26Jun2025 02:11:26.015] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[26Jun2025 02:11:26.019] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[26Jun2025 02:11:26.176] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[26Jun2025 02:11:26.226] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/jinbokm/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[26Jun2025 02:11:26.537] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[26Jun2025 02:11:26.538] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Jun2025 02:11:26.539] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Jun2025 02:11:26.541] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/jinbokm/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[26Jun2025 02:11:26.631] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[26Jun2025 02:11:28.314] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26Jun2025 02:11:28.333] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[26Jun2025 02:11:28.371] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[26Jun2025 02:11:33.755] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[26Jun2025 02:11:33.762] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[26Jun2025 02:11:33.835] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
+[26Jun2025 02:11:34.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/jinbokm/servidor_minecraft/config/advancednetherite-common.toml is not correct. Correcting
+[26Jun2025 02:11:34.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_iron_armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.185] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_iron_armor.ironPhantomPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_iron_armor.ironPiglinPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_iron_armor.ironEndermanPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_gold_armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_gold_armor.goldPhantomPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_gold_armor.goldPiglinPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_gold_armor.goldEndermanPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_emerald_armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_emerald_armor.emeraldPhantomPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_emerald_armor.emeraldPiglinPassiveArmor was corrected from null to its default, false. 
+[26Jun2025 02:11:34.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_emerald_armor.emeraldEndermanPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_diamond_armor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_diamond_armor.diamondPhantomPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_diamond_armor.diamondPiglinPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.armor_perks.netherite_diamond_armor.diamondEndermanPassiveArmor was corrected from null to its default, true. 
+[26Jun2025 02:11:34.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.additional_drops was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:34.189] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.additional_drops.enableAdditionalCropDrops was corrected from null to its default, true. 
+[26Jun2025 02:11:34.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.additional_drops.enableAdditionalOreDrops was corrected from null to its default, true. 
+[26Jun2025 02:11:34.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.additional_drops.enableAdditionalMobDrops was corrected from null to its default, true. 
+[26Jun2025 02:11:34.250] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[26Jun2025 02:11:34.255] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[26Jun2025 02:11:34.361] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[26Jun2025 02:11:34.396] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[26Jun2025 02:11:34.401] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[26Jun2025 02:11:34.404] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[26Jun2025 02:11:34.405] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at bl4ckscor3.mod.globalxp.compat.WailaDataProvider
+[26Jun2025 02:11:34.444] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[26Jun2025 02:11:34.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[26Jun2025 02:11:34.839] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[26Jun2025 02:11:35.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[26Jun2025 02:11:35.043] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[26Jun2025 02:11:35.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.20.1-1.0.24 Target: null
+[26Jun2025 02:11:35.728] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Starting version check at https://raw.githubusercontent.com/Autovw/ModUpdates/master/advancednetherite/update.json
+[26Jun2025 02:11:35.741] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancednetherite] Found status: BETA Current: 2.1.3 Target: 2.1.3
+[26Jun2025 02:11:36.042] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[26Jun2025 02:11:36.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_block Expected: 1012 Got: 1013
+[26Jun2025 02:11:36.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_block Expected: 1013 Got: 1014
+[26Jun2025 02:11:36.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_block Expected: 1014 Got: 1015
+[26Jun2025 02:11:36.201] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_block Expected: 1015 Got: 1016
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_ingot Expected: 1265 Got: 1266
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_ingot Expected: 1266 Got: 1267
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_ingot Expected: 1267 Got: 1268
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_ingot Expected: 1268 Got: 1269
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_helmet Expected: 1269 Got: 1270
+[26Jun2025 02:11:36.202] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_chestplate Expected: 1270 Got: 1271
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_leggings Expected: 1271 Got: 1272
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_boots Expected: 1272 Got: 1273
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_helmet Expected: 1273 Got: 1274
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_chestplate Expected: 1274 Got: 1275
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_leggings Expected: 1275 Got: 1276
+[26Jun2025 02:11:36.203] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_boots Expected: 1276 Got: 1277
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_helmet Expected: 1277 Got: 1278
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_chestplate Expected: 1278 Got: 1279
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_leggings Expected: 1279 Got: 1280
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_boots Expected: 1280 Got: 1281
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_helmet Expected: 1281 Got: 1282
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_chestplate Expected: 1282 Got: 1283
+[26Jun2025 02:11:36.204] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_leggings Expected: 1283 Got: 1284
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_boots Expected: 1284 Got: 1285
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_axe Expected: 1285 Got: 1286
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_axe Expected: 1286 Got: 1287
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_axe Expected: 1287 Got: 1288
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_axe Expected: 1288 Got: 1289
+[26Jun2025 02:11:36.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_hoe Expected: 1289 Got: 1290
+[26Jun2025 02:11:36.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_hoe Expected: 1290 Got: 1291
+[26Jun2025 02:11:36.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_hoe Expected: 1291 Got: 1292
+[26Jun2025 02:11:36.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_hoe Expected: 1292 Got: 1293
+[26Jun2025 02:11:36.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_pickaxe Expected: 1293 Got: 1294
+[26Jun2025 02:11:36.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_pickaxe Expected: 1294 Got: 1295
+[26Jun2025 02:11:36.207] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_pickaxe Expected: 1295 Got: 1296
+[26Jun2025 02:11:36.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_pickaxe Expected: 1296 Got: 1297
+[26Jun2025 02:11:36.209] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_shovel Expected: 1297 Got: 1298
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_shovel Expected: 1298 Got: 1299
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_shovel Expected: 1299 Got: 1300
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_shovel Expected: 1300 Got: 1301
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_sword Expected: 1301 Got: 1302
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_sword Expected: 1302 Got: 1303
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_sword Expected: 1303 Got: 1304
+[26Jun2025 02:11:36.210] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_sword Expected: 1304 Got: 1305
+[26Jun2025 02:11:36.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_iron_block Expected: 1305 Got: 1306
+[26Jun2025 02:11:36.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_gold_block Expected: 1306 Got: 1307
+[26Jun2025 02:11:36.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_emerald_block Expected: 1307 Got: 1308
+[26Jun2025 02:11:36.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: advancednetherite:netherite_diamond_block Expected: 1308 Got: 1309
+[26Jun2025 02:11:36.727] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/jinbokm/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/assets/.mcassetsroot' uses unexpected schema
+[26Jun2025 02:11:36.727] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/jinbokm/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23119!/data/.mcassetsroot' uses unexpected schema
+[26Jun2025 02:11:38.764] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[26Jun2025 02:11:38.958] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1352 advancements
+[26Jun2025 02:11:39.443] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[26Jun2025 02:11:39.444] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[26Jun2025 02:11:39.446] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[26Jun2025 02:11:39.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[26Jun2025 02:11:39.626] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[26Jun2025 02:11:39.650] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[26Jun2025 02:11:39.745] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[26Jun2025 02:11:39.746] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[26Jun2025 02:11:39.747] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[26Jun2025 02:11:39.747] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[26Jun2025 02:11:39.770] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/advancednetherite-server.toml is not correct. Correcting
+[26Jun2025 02:11:39.772] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.772] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties.breaking_speed_multipliers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.773] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties.breaking_speed_multipliers.ironBreakingSpeedMultiplier was corrected from null to its default, 12. 
+[26Jun2025 02:11:39.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties.breaking_speed_multipliers.goldBreakingSpeedMultiplier was corrected from null to its default, 20. 
+[26Jun2025 02:11:39.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties.breaking_speed_multipliers.emeraldBreakingSpeedMultiplier was corrected from null to its default, 29. 
+[26Jun2025 02:11:39.774] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tool_properties.breaking_speed_multipliers.diamondBreakingSpeedMultiplier was corrected from null to its default, 39. 
+[26Jun2025 02:11:39.775] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.776] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.crop_drop_chances was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.776] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.crop_drop_chances.additionalWheatDropChance was corrected from null to its default, 0.3. 
+[26Jun2025 02:11:39.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.crop_drop_chances.additionalCarrotsDropChance was corrected from null to its default, 0.3. 
+[26Jun2025 02:11:39.777] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.crop_drop_chances.additionalPotatoesDropChance was corrected from null to its default, 0.3. 
+[26Jun2025 02:11:39.778] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.crop_drop_chances.additionalBeetrootsDropChance was corrected from null to its default, 0.2. 
+[26Jun2025 02:11:39.778] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.mob_drop_chances was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.778] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.mob_drop_chances.additionalPhantomDropChance was corrected from null to its default, 0.5. 
+[26Jun2025 02:11:39.779] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.mob_drop_chances.additionalZombifiedPiglinDropChance was corrected from null to its default, 0.5. 
+[26Jun2025 02:11:39.779] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.mob_drop_chances.additionalPiglinDropChance was corrected from null to its default, 0.15. 
+[26Jun2025 02:11:39.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.mob_drop_chances.additionalEndermanDropChance was corrected from null to its default, 0.3. 
+[26Jun2025 02:11:39.780] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances was corrected from null to its default, SimpleCommentedConfig:{}. 
+[26Jun2025 02:11:39.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances.additionalRawIronDropChance was corrected from null to its default, 0.2. 
+[26Jun2025 02:11:39.781] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances.additionalRawGoldChance was corrected from null to its default, 0.3. 
+[26Jun2025 02:11:39.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances.additionalEmeraldDropChance was corrected from null to its default, 0.4. 
+[26Jun2025 02:11:39.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances.additionalDiamondDropChance was corrected from null to its default, 0.25. 
+[26Jun2025 02:11:39.782] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.additional_drop_properties.ore_drop_chances.additionalGoldNuggetDropChance was corrected from null to its default, 0.6. 
+[26Jun2025 02:11:39.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[26Jun2025 02:11:42.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[26Jun2025 02:11:46.053] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.054] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.055] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.056] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.056] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.057] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.324] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[26Jun2025 02:11:46.823] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[26Jun2025 02:11:47.051] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4228 ms
+[26Jun2025 02:11:47.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.291s)! For help, type "help"
+[26Jun2025 02:11:47.073] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[26Jun2025 02:11:49.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[26Jun2025 02:11:49.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26Jun2025 02:11:49.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26Jun2025 02:11:49.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26Jun2025 02:11:50.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26Jun2025 02:11:51.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26Jun2025 02:11:51.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26Jun2025 02:11:51.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26Jun2025 02:11:51.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26Jun2025 02:11:51.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26Jun2025 02:11:51.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
