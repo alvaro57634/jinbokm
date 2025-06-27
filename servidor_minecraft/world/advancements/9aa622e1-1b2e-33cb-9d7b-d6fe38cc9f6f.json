@@ -198,6 +198,7 @@
       "minecraft:spider": "2025-06-26 02:29:19 +0000",
       "minecraft:creeper": "2025-06-27 02:03:14 +0000",
       "minecraft:enderman": "2025-06-27 02:50:11 +0000",
+      "minecraft:stray": "2025-06-27 11:22:12 +0000",
       "minecraft:zombie": "2025-06-26 02:29:36 +0000",
       "minecraft:zombie_villager": "2025-06-27 03:20:32 +0000"
     },
@@ -1356,6 +1357,7 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "smithingtable": "2025-06-27 02:08:42 +0000",
+      "smoker": "2025-06-27 11:19:56 +0000",
       "blastfurnace": "2025-06-27 02:09:43 +0000",
       "lectern": "2025-06-27 02:28:05 +0000"
     },
