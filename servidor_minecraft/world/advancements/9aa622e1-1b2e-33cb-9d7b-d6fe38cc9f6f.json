@@ -198,7 +198,8 @@
       "minecraft:spider": "2025-06-26 02:29:19 +0000",
       "minecraft:creeper": "2025-06-27 02:03:14 +0000",
       "minecraft:enderman": "2025-06-27 02:50:11 +0000",
-      "minecraft:zombie": "2025-06-26 02:29:36 +0000"
+      "minecraft:zombie": "2025-06-26 02:29:36 +0000",
+      "minecraft:zombie_villager": "2025-06-27 03:20:32 +0000"
     },
     "done": false
   },
@@ -1561,6 +1562,12 @@
   "travelersbackpack:recipes/misc/skeleton": {
     "criteria": {
       "has_arrow": "2025-06-27 03:07:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-06-27 03:20:52 +0000"
     },
     "done": true
   },
