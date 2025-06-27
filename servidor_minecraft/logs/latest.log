@@ -64,3 +64,18 @@
 [27Jun2025 01:50:31.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC joined the game
 [27Jun2025 01:50:31.984] [Server thread/INFO] [Jade/]: Syncing config to RodriLC (9aa622e1-1b2e-33cb-9d7b-d6fe38cc9f6f)
 [27Jun2025 01:52:35.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC drowned
+[27Jun2025 02:08:32.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [First Village]
+[27Jun2025 02:08:42.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [Let's Get To Work]
+[27Jun2025 02:15:14.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[27Jun2025 02:15:14.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[27Jun2025 02:15:14.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[27Jun2025 02:15:14.680] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RodriLC lost connection: Server closed
+[27Jun2025 02:15:14.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC left the game
+[27Jun2025 02:15:14.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[27Jun2025 02:15:15.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[27Jun2025 02:15:16.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[27Jun2025 02:15:16.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[27Jun2025 02:15:16.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[27Jun2025 02:15:16.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[27Jun2025 02:15:16.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[27Jun2025 02:15:16.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
