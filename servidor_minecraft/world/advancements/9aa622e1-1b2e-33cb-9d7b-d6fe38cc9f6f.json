@@ -1559,6 +1559,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/skeleton": {
     "criteria": {
       "has_arrow": "2025-06-27 03:07:32 +0000"
@@ -1583,6 +1589,18 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/smoker_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blast_furnace_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-27 03:02:54 +0000"
@@ -1592,6 +1610,12 @@
   "travelersbackpack:recipes/misc/standard_smithing": {
     "criteria": {
       "has_standard": "2025-06-27 03:12:44 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
     },
     "done": true
   },
@@ -1616,6 +1640,18 @@
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-27 03:02:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/furnace_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
     },
     "done": true
   },
@@ -1649,6 +1685,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-27 03:02:54 +0000"
@@ -1667,6 +1709,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2025-06-27 03:11:16 +0000"
@@ -1676,6 +1724,12 @@
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2025-06-27 03:08:23 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/tanks_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
     },
     "done": true
   },
@@ -1718,6 +1772,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-06-27 03:02:54 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2025-06-27 03:28:41 +0000"
     },
     "done": true
   },
