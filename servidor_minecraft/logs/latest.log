@@ -78,3 +78,16 @@
 [28Jun2025 13:00:09.910] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Oceanographer'/12938, l='ServerLevel[world]', x=4625.71, y=61.05, z=-41.30] died, message: 'Oceanographer drowned'
 [28Jun2025 13:30:39.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [First Trade]
 [28Jun2025 13:30:39.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [What a Deal!]
+[28Jun2025 16:54:43.215] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RodriLC lost connection: Disconnected
+[28Jun2025 16:54:43.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC left the game
+[28Jun2025 16:54:49.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28Jun2025 16:54:50.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Jun2025 16:54:50.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Jun2025 16:54:50.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Jun2025 16:54:50.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28Jun2025 16:54:50.178] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28Jun2025 16:54:50.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28Jun2025 16:54:50.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28Jun2025 16:54:50.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Jun2025 16:54:50.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Jun2025 16:54:50.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
