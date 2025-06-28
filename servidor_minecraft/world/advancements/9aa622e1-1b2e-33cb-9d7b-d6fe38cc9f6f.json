@@ -11,6 +11,7 @@
       "minecraft:deep_ocean": "2025-06-27 12:00:38 +0000",
       "minecraft:frozen_river": "2025-06-26 15:12:13 +0000",
       "minecraft:windswept_hills": "2025-06-27 12:02:17 +0000",
+      "minecraft:beach": "2025-06-28 12:32:01 +0000",
       "minecraft:river": "2025-06-28 12:13:51 +0000",
       "minecraft:snowy_plains": "2025-06-27 02:07:41 +0000",
       "minecraft:stony_shore": "2025-06-27 11:44:34 +0000",
@@ -24,6 +25,8 @@
       "minecraft:deep_frozen_ocean": "2025-06-27 11:53:50 +0000",
       "minecraft:ocean": "2025-06-27 12:00:42 +0000",
       "minecraft:snowy_beach": "2025-06-27 02:05:33 +0000",
+      "minecraft:flower_forest": "2025-06-28 12:31:18 +0000",
+      "minecraft:savanna": "2025-06-28 12:33:14 +0000",
       "minecraft:plains": "2025-06-27 12:01:42 +0000"
     },
     "done": false
@@ -2253,9 +2256,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2025-06-28 12:37:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2025-06-28 12:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2025-06-28 12:37:24 +0000"
     },
     "done": true
   },
