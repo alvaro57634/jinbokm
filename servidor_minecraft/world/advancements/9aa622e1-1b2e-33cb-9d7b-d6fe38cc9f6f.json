@@ -2255,7 +2255,8 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
-      "fletcher": "2025-06-28 13:30:39 +0000"
+      "fletcher": "2025-06-28 13:30:39 +0000",
+      "librarian": "2025-06-28 15:20:30 +0000"
     },
     "done": false
   },
