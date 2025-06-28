@@ -76,3 +76,5 @@
 [28Jun2025 12:42:39.013] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/12937, l='ServerLevel[world]', x=4677.41, y=61.05, z=-28.51] died, message: 'Unemployed drowned'
 [28Jun2025 12:55:22.360] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Oceanographer'/12953, l='ServerLevel[world]', x=4677.30, y=61.04, z=-28.57] died, message: 'Oceanographer drowned'
 [28Jun2025 13:00:09.910] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Oceanographer'/12938, l='ServerLevel[world]', x=4625.71, y=61.05, z=-41.30] died, message: 'Oceanographer drowned'
+[28Jun2025 13:30:39.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [First Trade]
+[28Jun2025 13:30:39.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RodriLC has made the advancement [What a Deal!]

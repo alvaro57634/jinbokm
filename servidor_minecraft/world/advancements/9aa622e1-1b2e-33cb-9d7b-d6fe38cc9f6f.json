@@ -1377,6 +1377,7 @@
     "criteria": {
       "huntingpost": "2025-06-28 13:09:15 +0000",
       "oceanographytable": "2025-06-28 13:09:22 +0000",
+      "fletchingtable": "2025-06-28 13:28:40 +0000",
       "gardeningtable": "2025-06-28 13:10:19 +0000",
       "smithingtable": "2025-06-27 02:08:42 +0000",
       "smoker": "2025-06-27 11:19:56 +0000",
@@ -2252,6 +2253,12 @@
     },
     "done": true
   },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "fletcher": "2025-06-28 13:30:39 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-06-28 12:59:15 +0000"
@@ -2261,6 +2268,12 @@
   "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
       "has_salmon": "2025-06-28 12:13:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-28 13:25:33 +0000"
     },
     "done": true
   },
@@ -2324,6 +2337,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-06-28 13:27:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2025-06-28 12:59:15 +0000"
@@ -2333,6 +2352,18 @@
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-06-28 12:27:18 +0000"
+    },
+    "done": true
+  },
+  "morevillagers:first_trade": {
+    "criteria": {
+      "villagertrade": "2025-06-28 13:30:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-28 13:25:33 +0000"
     },
     "done": true
   },
@@ -2351,6 +2382,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2025-06-28 12:59:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-28 13:25:33 +0000"
     },
     "done": true
   },
@@ -2378,15 +2415,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-28 13:25:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-06-28 12:42:37 +0000"
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-28 13:25:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-06-28 12:27:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-06-28 13:30:39 +0000"
     },
     "done": true
   },
